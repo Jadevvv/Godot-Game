@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://df538p2tna6ts"
+path="res://.godot/imported/castle 16bit.mp3-a318ab4b37f411c6d204ec8429f963d7.mp3str"
+
+[deps]
+
+source_file="res://Assets/castle 16bit.mp3"
+dest_files=["res://.godot/imported/castle 16bit.mp3-a318ab4b37f411c6d204ec8429f963d7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
