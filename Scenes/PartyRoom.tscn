@@ -1,9 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bvigiltf3can7"]
 
+[ext_resource type="PackedScene" uid="uid://c8xdndpui1f6g" path="res://Scenes/Player.tscn" id="1_a76ii"]
 [ext_resource type="Texture2D" uid="uid://dxude3cxx7hol" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_urmeh"]
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_v1qfn"]
-animations = []
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hh5uf"]
 texture = ExtResource("1_urmeh")
@@ -113,9 +111,11 @@ sources/0 = SubResource("TileSetAtlasSource_hh5uf")
 
 [node name="Node2D" type="Node2D"]
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_v1qfn")
-animation = &""
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_a76ii")]
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(8, -8)
+zoom = Vector2(4, 4)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_6whob")
