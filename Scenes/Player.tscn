@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://8x1mptw3jn47"]
+[gd_scene load_steps=9 format=3 uid="uid://se7hgy6fhoj2"]
 
 [ext_resource type="Script" uid="uid://be00evvsein6o" path="res://player.gd" id="1_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://bw0t8ebrdyq4g" path="res://Assets/Enter The Castle v1.0.1/bat_sheet.png" id="1_rpqav"]
@@ -47,12 +47,10 @@ z_index = 4
 script = ExtResource("1_kyqiw")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(8, -8)
 sprite_frames = SubResource("SpriteFrames_nn08x")
 animation = &"Idle"
 autoplay = "Idle"
 frame_progress = 0.398091
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(8, -8)
 shape = SubResource("CircleShape2D_rpqav")
