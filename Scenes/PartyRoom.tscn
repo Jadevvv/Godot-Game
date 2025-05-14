@@ -133,6 +133,7 @@ sources/0 = SubResource("TileSetAtlasSource_hh5uf")
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_6whob")
 format = 2
+layer_0/tile_data = PackedInt32Array(393209, 524288, 6)
 
 [node name="Layer1" type="TileMapLayer" parent="TileMap"]
 use_parent_material = true
@@ -156,7 +157,7 @@ tile_set = SubResource("TileSet_6whob")
 
 [node name="Layer5" type="TileMapLayer" parent="TileMap"]
 use_parent_material = true
-tile_map_data = PackedByteArray("AAD3//n/AAAEAAcAAAAHAPn/AAAEAAcAAAD///n/AAAEAAcAAAD1//z/AAABAAkAAAD1/wQAAAABAAkAAAAKAPz/AAABAAkAABAJAAQAAAAIAAYAAAAGAAUAAAAIAAYAAAAGAAAAAAAHAAkAAAACAAQAAAADAAkAAAD9/wQAAAADAAkAAAACAPv/AAADAAkAAAD9//v/AAADAAkAAAAAAP3/AAAGAAgAAAAAAP7/AAAGAAgAAAAAAPz/AAAGAAgAAAD7/wAAAAAIAAkAAAA=")
+tile_map_data = PackedByteArray("AAD3//n/AAAEAAcAAAAHAPn/AAAEAAcAAAD///n/AAAEAAcAAAD1//z/AAABAAkAAAD1/wQAAAABAAkAAAAKAPz/AAABAAkAABAJAAQAAAAIAAYAAAAGAAUAAAAIAAYAAAAGAAAAAAAHAAkAAAACAAQAAAADAAkAAAD9/wQAAAADAAkAAAACAPv/AAADAAkAAAD9//v/AAADAAkAAAAAAP3/AAAGAAgAAAAAAP7/AAAGAAgAAAAAAPz/AAAGAAgAAAD7/wAAAAAIAAkAAAD6/wYAAAAIAAYAAAD4/wQAAAAIAAYAAAA=")
 tile_set = SubResource("TileSet_6whob")
 
 [node name="CharacterBody2D" parent="TileMap" instance=ExtResource("1_a76ii")]
