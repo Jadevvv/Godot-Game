@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://8x1mptw3jn47"]
 
-[ext_resource type="Script" uid="uid://jpaka4y75d7y" path="res://player.gd" id="1_kyqiw"]
+[ext_resource type="Script" uid="uid://be00evvsein6o" path="res://player.gd" id="1_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://bw0t8ebrdyq4g" path="res://Assets/Enter The Castle v1.0.1/bat_sheet.png" id="1_rpqav"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kyqiw"]
