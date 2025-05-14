@@ -1,22 +1,22 @@
-[gd_scene load_steps=9 format=3 uid="uid://8x1mptw3jn47"]
+[gd_scene load_steps=9 format=3 uid="uid://kvfgvhhn1ttq"]
 
-[ext_resource type="Script" uid="uid://be00evvsein6o" path="res://player.gd" id="1_kyqiw"]
-[ext_resource type="Texture2D" uid="uid://bw0t8ebrdyq4g" path="res://Assets/Enter The Castle v1.0.1/bat_sheet.png" id="1_rpqav"]
+[ext_resource type="Script" uid="uid://be00evvsein6o" path="res://player.gd" id="1_lijfn"]
+[ext_resource type="Texture2D" uid="uid://bw0t8ebrdyq4g" path="res://Assets/Enter The Castle v1.0.1/bat_sheet.png" id="2_vg6k0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kyqiw"]
-atlas = ExtResource("1_rpqav")
+atlas = ExtResource("2_vg6k0")
 region = Rect2(0, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gntrk"]
-atlas = ExtResource("1_rpqav")
+atlas = ExtResource("2_vg6k0")
 region = Rect2(16, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dewec"]
-atlas = ExtResource("1_rpqav")
+atlas = ExtResource("2_vg6k0")
 region = Rect2(32, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5ixxa"]
-atlas = ExtResource("1_rpqav")
+atlas = ExtResource("2_vg6k0")
 region = Rect2(48, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nn08x"]
@@ -44,7 +44,7 @@ radius = 5.09902
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 z_index = 4
-script = ExtResource("1_kyqiw")
+script = ExtResource("1_lijfn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_nn08x")
