@@ -1,8 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://b4ed01i7v2vxc"]
+[gd_scene load_steps=8 format=3 uid="uid://b2fn8wqr0h24m"]
 
 [ext_resource type="Texture2D" uid="uid://dtoupn8uemwao" path="res://Assets/Enter The Castle v1.0.1/ground_sheet.png" id="1_pdx2x"]
 [ext_resource type="Texture2D" uid="uid://ci44gfbqohugl" path="res://Assets/Enter The Castle v1.0.1/walls_sheet.png" id="2_pu4ew"]
-[ext_resource type="PackedScene" uid="uid://se7hgy6fhoj2" path="res://Scenes/Player.tscn" id="3_pdx2x"]
+[ext_resource type="PackedScene" uid="uid://8x1mptw3jn47" path="res://Scenes/Player.tscn" id="3_pdx2x"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyq8t"]
 texture = ExtResource("1_pdx2x")

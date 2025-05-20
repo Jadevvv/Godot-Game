@@ -1,7 +1,10 @@
-[gd_scene load_steps=5 format=4 uid="uid://bvigiltf3can7"]
+[gd_scene load_steps=8 format=4 uid="uid://bvigiltf3can7"]
 
-[ext_resource type="PackedScene" uid="uid://se7hgy6fhoj2" path="res://Scenes/Player.tscn" id="1_a76ii"]
+[ext_resource type="PackedScene" uid="uid://8x1mptw3jn47" path="res://Scenes/Player.tscn" id="1_a76ii"]
 [ext_resource type="Texture2D" uid="uid://ccxswgnfsm1sx" path="res://Assets/2D Pixel Dungeon Asset Pack/Dungeon_Tileset.png" id="1_pwiaj"]
+[ext_resource type="PackedScene" uid="uid://ce40si05t3p6p" path="res://Assets/vampire.tscn" id="3_pwiaj"]
+[ext_resource type="PackedScene" uid="uid://28rj50yrvci0" path="res://Assets/skull.tscn" id="4_pg5ut"]
+[ext_resource type="PackedScene" uid="uid://5kghrap08tmo" path="res://Assets/skeleton.tscn" id="5_wsfcb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hh5uf"]
 texture = ExtResource("1_pwiaj")
@@ -178,3 +181,43 @@ limit_left = -224
 limit_top = -145
 limit_right = 224
 limit_bottom = 159
+
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("5_wsfcb")]
+position = Vector2(-87, 0)
+
+[node name="AnimatedSprite2D2" parent="." instance=ExtResource("5_wsfcb")]
+position = Vector2(-7, -48)
+
+[node name="AnimatedSprite2D3" parent="." instance=ExtResource("5_wsfcb")]
+position = Vector2(119, 0)
+flip_h = true
+
+[node name="Vampire" parent="." instance=ExtResource("3_pwiaj")]
+position = Vector2(88, -1)
+
+[node name="Vampire2" parent="." instance=ExtResource("3_pwiaj")]
+position = Vector2(24, -48)
+flip_h = true
+
+[node name="Vampire3" parent="." instance=ExtResource("3_pwiaj")]
+position = Vector2(-56, 0)
+flip_h = true
+
+[node name="Skull" parent="." instance=ExtResource("4_pg5ut")]
+position = Vector2(-118, -45)
+
+[node name="Skull2" parent="." instance=ExtResource("4_pg5ut")]
+position = Vector2(-139, 45)
+
+[node name="Skull3" parent="." instance=ExtResource("4_pg5ut")]
+position = Vector2(109, -38)
+flip_h = true
+
+[node name="Skull4" parent="." instance=ExtResource("4_pg5ut")]
+position = Vector2(90, 54)
+flip_h = true
+
+[node name="Skull5" parent="." instance=ExtResource("4_pg5ut")]
+position = Vector2(167, -90)
+flip_h = true
+flip_v = true
