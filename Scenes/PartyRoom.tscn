@@ -1,6 +1,6 @@
-[gd_scene load_steps=8 format=4 uid="uid://bvigiltf3can7"]
+[gd_scene load_steps=8 format=4 uid="uid://brkdxigo4tp33"]
 
-[ext_resource type="PackedScene" uid="uid://8x1mptw3jn47" path="res://Scenes/Player.tscn" id="1_a76ii"]
+[ext_resource type="PackedScene" uid="uid://8x1mptw3jn47" path="res://Scenes/player.tscn" id="1_a76ii"]
 [ext_resource type="Texture2D" uid="uid://ccxswgnfsm1sx" path="res://Assets/2D Pixel Dungeon Asset Pack/Dungeon_Tileset.png" id="1_pwiaj"]
 [ext_resource type="PackedScene" uid="uid://ce40si05t3p6p" path="res://Assets/vampire.tscn" id="3_pwiaj"]
 [ext_resource type="PackedScene" uid="uid://28rj50yrvci0" path="res://Assets/skull.tscn" id="4_pg5ut"]
@@ -137,7 +137,7 @@ texture = ExtResource("1_pwiaj")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_hh5uf")
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D2" type="Node2D"]
 metadata/_edit_horizontal_guides_ = [-145.0]
 
 [node name="TileMap" type="TileMap" parent="."]

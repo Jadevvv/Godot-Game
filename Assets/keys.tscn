@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cl3mv6sj0lppt"]
+[gd_scene load_steps=8 format=3 uid="uid://vqyktxrb8abi"]
 
 [ext_resource type="Script" path="res://Assets/keys.gd" id="1_5kc7u"]
 [ext_resource type="Texture2D" uid="uid://03mclvb8msk8" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_1.png" id="1_iqcsa"]
